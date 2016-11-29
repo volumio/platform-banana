@@ -1,7 +1,7 @@
 # platform-banana-pi
 Platform files for banana-pi devices
 
-Kernel Sources: http://github.com/BPI-SINOVOIP/BPI-M2U-bsp
+BPI-Sinovoip sources: http://github.com/BPI-SINOVOIP/BPI-M2U-bsp
 
 This repo contains all platform-specific files, used by the Volumio Builder to create **banana-pi** images:
 
@@ -9,7 +9,8 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 - Other files e.g. u-boot, configuration files, uEnv.txt, bootcmd, boot.scr etc.
 
 The BSP is used to generate most of the needed components.
-A Volumio-specific scripts copies out the data to the platform folder and tar's it, to be used by the Volumio build process.
+A Volumio-specific script can be used to copy out the data to the platform folder and tar it.
+The tar is to be used by the Volumio build process.
 
 **Platform BSP-M2U files with kernel version 3.10.65**
 - 20161129: First commit for Volumio 2
