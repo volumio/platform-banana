@@ -15,4 +15,5 @@ The tar is to be used by the Volumio build process.
 **Platform BSP-M2U files with kernel version 3.10.65**
 - 20161129: First commit for Volumio 2
 
+** Waiting for more documentation on bpi-m2u, currently initrd does not load **
 
